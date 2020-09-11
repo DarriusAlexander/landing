@@ -23,6 +23,7 @@
     "build:css": "run-s lint-scss scss autoprefixer",
     "build:images": "run-s imagemin",
     "build": "run-s build:*",
+    "nothing": "",
     "watch:css": "onchange \"src/scss\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch:images": "onchange \"src/images\" -- run-s build:images",
